@@ -14,7 +14,7 @@
             $update = $bdd->prepare("UPDATE utilisateurs SET actif='ok' WHERE id=?");
             $update->execute([$don['id']]);
             $update->closeCursor();
-            header("LOCATION:index.php?validation=ok");
+            header("LOCATION:login.php?validation=ok");
         }else{
             header("LOCATION:index.php");
         }

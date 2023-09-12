@@ -9,6 +9,7 @@
 </head>
 <body>
     <a href="inscription.php" class="btn btn-success">Inscription</a>
+    <a href="login.php" class="btn btn-primary">Connexion</a>
     <?php 
         if(isset($_GET['inscription']))
         {
